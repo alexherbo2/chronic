@@ -48,7 +48,7 @@ class Chronic::Parser
   # $ echo 2020-02-02 + tomorrow | chronic
   # # 2020-02-02 23:59:59
   def parse(tokens : Array(String))
-    now = ::Time.now
+    now = ::Time.local
     times = tokens.map &->Parser.parse(String)
     times.reduce do |compiled_time, time|
       compiled_time + Time.new(time).from(now) + 1.second
