@@ -8,7 +8,7 @@ struct Chronic::Time
     @time - time
   end
   def from_now
-    from(::Time.now)
+    from(::Time.local)
   end
   def to_s(format)
     # Let’s just pretend we have a real parser.
