@@ -14,7 +14,7 @@ class Chronic::Range
   end
 
   def next
-    if @time < @end
+    if @time <= @end
       current_time = @time
       @time += @step
       current_time
