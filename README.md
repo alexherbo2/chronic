@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/alexherbo2/chronic.svg)](https://travis-ci.org/alexherbo2/chronic)
 [![IRC](https://img.shields.io/badge/IRC-%23chronic-blue)](https://webchat.freenode.net/#chronic)
 
+<img src="https://github.com/FortAwesome/Font-Awesome/raw/master/svgs/solid/cog.svg" height="16" align="right">
+
 Chronic is a natural language date-time parser for the command-line.
 
 [![Chronic](https://img.youtube.com/vi_webp/P0m9RHs_0Wo/maxresdefault.webp)](https://youtube.com/playlist?list=PLdr-HcjEDx_nVgUW8io9HG39BDyp96u3s "YouTube – Chronic")
