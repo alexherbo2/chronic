@@ -139,7 +139,7 @@ def main
     handler.call(object)
   when Chronic::Range
     time_range = object
-    period = Time::Span.new(options.days, options.hours, options.minutes, options.seconds)
+    period = Time::Span.new(days: options.days, hours: options.hours, minutes: options.minutes, seconds: options.seconds)
     time_range.step = period
     time_range.join(options.separator, &handler)
   else
