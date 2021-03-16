@@ -14,23 +14,16 @@ Chronic is a natural language date-time parser for the command-line.
 
 - [Crystal]
 - [date] (for [date input formats])
-- [ripgrep] (Optional, for [`cg`](scripts/cg))
 
 ## Installation
 
 ``` sh
-make build # Build bin/chronic
-make install # Install bin/chronic and scripts into ~/.local/bin
+make install
 ```
 
 ### Editor integration
 
 - [Kakoune][chronic.kak]
-
-### Scripts
-
-- [`at`](scripts/at)
-- [`cg`](scripts/cg)
 
 ## Usage
 

@@ -3,10 +3,10 @@ build:
 
 install: build
 	mkdir -p ~/.local/bin
-	ln -sf "${PWD}/bin/chronic" "${PWD}/scripts/at" "${PWD}/scripts/cg" ~/.local/bin
+	ln -sf "${PWD}/bin/chronic" ~/.local/bin
 
 uninstall:
-	rm -f ~/.local/bin/chronic ~/.local/bin/at ~/.local/bin/cg
+	rm -f ~/.local/bin/chronic
 
 test:
 	crystal spec
