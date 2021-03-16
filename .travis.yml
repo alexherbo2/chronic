@@ -1,4 +1,0 @@
-language: crystal
-script:
-- make build
-- make test

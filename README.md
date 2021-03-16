@@ -1,6 +1,5 @@
 # Chronic
 
-[![Build Status](https://travis-ci.org/alexherbo2/chronic.svg)](https://travis-ci.org/alexherbo2/chronic)
 [![IRC](https://img.shields.io/badge/IRC-%23chronic-blue)](https://webchat.freenode.net/#chronic)
 
 <img src="https://github.com/FortAwesome/Font-Awesome/raw/master/svgs/solid/cog.svg" height="16" align="right">
